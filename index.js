@@ -1,5 +1,5 @@
 const host = process.env.HOST || '0.0.0.0';
-const port = process.env.PORT || 8081;
+const port = process.env.PORT || 8080;
 
 const cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
